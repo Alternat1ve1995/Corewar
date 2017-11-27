@@ -1,5 +1,8 @@
 # Prerequisites
 *.d
+._*
+.DS*
+*.swp
 
 # Object files
 *.o
@@ -51,6 +54,9 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+
+# _________________________________________________ Java _____________________________________________ #
+
 # Compiled class file
 *.class
 
@@ -71,11 +77,25 @@ dkms.conf
 *.tar.gz
 *.rar
 
-# IntelliJ #
-out
+# Web Java EE directories #
+target
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# IDEA #
+.idea
+out
+*.iml
+
+# _________________________________________________ C ________________________________________________ #
+
+# CLion #
+cmake-build-debug
+CMakeLists.txt
+
+# Object files
+*.o
 
 # ________________________________________________ MAC _______________________________________________ #
 
